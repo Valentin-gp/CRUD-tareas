@@ -1,0 +1,7 @@
+/config.php
+/var/
+/node_modules/
+/vendor/
+/*.sql
+/.env
+.DS_Store

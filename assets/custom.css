@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh; /* asegura que el body siempre cubra la ventana */
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* el gradiente se mantiene aunque bajes */
+}
+
+
+.container.py-4 {
+    min-height: calc(100vh - 80px); /* ajusta 80px según altura de navbar */
+}
+
