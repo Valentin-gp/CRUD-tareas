@@ -1,5 +1,5 @@
 <?php
-include "/etc/tareas_config/config.php";
+include __DIR__ . "/config.php";
 
 if(isset($_GET['id'])){
     $id = (int)$_GET['id'];

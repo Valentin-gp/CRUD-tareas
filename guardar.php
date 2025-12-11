@@ -1,5 +1,5 @@
 <?php
-include "/etc/tareas_config/config.php";
+include __DIR__ . "/config.php";
 
 if(isset($_POST['titulo'])){
     $titulo = $conexion->real_escape_string($_POST['titulo']);

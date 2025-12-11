@@ -5,3 +5,4 @@
 /*.sql
 /.env
 .DS_Store
+tareas_db.sql

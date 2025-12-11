@@ -1,5 +1,5 @@
 <?php
-include "/etc/tareas_config/config.php";
+include __DIR__ . "/config.php";
 include __DIR__ . '/includes/header.php';
 ?>
 
